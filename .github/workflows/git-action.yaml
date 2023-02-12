@@ -6,4 +6,4 @@ jobs:
   build-images:
     uses: dooubb/.github/.github/workflows/git-action.yaml@master
     with:
-      allowed-author: git-bot=
+      allowed-author: git-bot
