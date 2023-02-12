@@ -5,8 +5,6 @@ on: [push]
 jobs:
   build-images:
     uses: dooubb/.github/.github/workflows/git-action.yaml@master
-    secrets:
-      username: ${{ secrets.docker_user_name }}
-      password: ${{ secrets.docker_password }}
+    secrets: inherit
     with:
       allowed-author: git-bot-
