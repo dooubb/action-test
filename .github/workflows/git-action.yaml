@@ -1,0 +1,9 @@
+name: git action 构建镜像
+run-name: ${{ github.actor }} 构建自定义镜像
+on: [push]
+
+jobs:
+  build-images:
+    uses: dooubb/.github/.github/workflows/git-action.yaml@master
+    with:
+      allowed-author: git-bot
