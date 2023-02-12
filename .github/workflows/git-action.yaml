@@ -7,4 +7,4 @@ jobs:
     uses: dooubb/.github/.github/workflows/git-action.yaml@master
     secrets: inherit
     with:
-      allowed-author: git-bot-
+      allowed-author: dooubb
